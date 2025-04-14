@@ -46,6 +46,52 @@ public class Assignment1 {
         System.out.println("Enter cellphone:");
         String logincellphone = scanner.nextLine();
         
+        //Reference:AI META>[Accessed 10 April 2025];
+        //Reference:Regex in java pg8<https://mystudies.iie.edu.za/d2l/le/lessons/22396/units/1880171>[Acessed 10 April 2025];
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
        
         
         
