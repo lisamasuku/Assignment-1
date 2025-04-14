@@ -48,6 +48,7 @@ public class User_details {
         // Return true if the password matches the pattern, false otherwise
         return matcher.matches();
     } 
+    
     public boolean isUsernameValid(String Username){
      String regex = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[_][A-Za-z_]{5})$";
      
@@ -56,7 +57,13 @@ public class User_details {
      
      return matcher.matches();
     }
- 
+ public boolean isCellphoneVaild(String Cellphone) {
+     String regex = "^\\+\\d{1,3}\\d{7,10}$";
+     Pattern pat = Pattern.compile(regex);
+     Matcher matcher = pat.matcher(Cellphone);
+     
+     return matcher.matches();
+ }
         
         
     }

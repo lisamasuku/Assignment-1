@@ -27,6 +27,11 @@ public class Assignment1 {
         }else{
             System.out.println("Username incorrectly formatted");
         }
+        if (login.isCellphoneVaild(cellphone)) {
+            System.out.println("Cellphone correctly formatted");
+        } else {
+            System.out.println("Cellphone incorrectly formatted");
+        }
           
  
         System.out.println("\nLogin :");
@@ -38,6 +43,8 @@ public class Assignment1 {
         System.out.println("Enter password:");
         String loginpassword = scanner.nextLine();
         
+        System.out.println("Enter cellphone:");
+        String logincellphone = scanner.nextLine();
         
        
         
