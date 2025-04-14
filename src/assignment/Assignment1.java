@@ -27,16 +27,20 @@ public class Assignment1 {
         }else{
             System.out.println("Username incorrectly formatted");
         }
-            
-
-        
+          
+ 
         System.out.println("\nLogin :");
+        
         
         System.out.println("Enter username:");
         String loginUsername = scanner.nextLine();
         
         System.out.println("Enter password:");
         String loginpassword = scanner.nextLine();
+        
+        
+       
+        
         
         
                 
